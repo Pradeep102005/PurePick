@@ -1,0 +1,15 @@
+{
+  "name": "purepick",
+  "version": "1.0.0",
+  "description": "best pick",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/app.js",
+    "dev":"nodemon src/app.js"
+  },
+  "author": "PradeepPalakodeti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
