@@ -1,9 +1,9 @@
 const express=require('express');
 const app=express();
-app.use("/test",(req,res)=>{
+app.get("/test",(req,res)=>{
     res.send("Vijayibhavaaa");
 })
-app.use("/hello",(req,res)=>{
+app.get("/hello",(req,res)=>{
     res.send("hi");
 })
 app.listen(3000,()=>{
